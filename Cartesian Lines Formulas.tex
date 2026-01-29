@@ -1,0 +1,175 @@
+\documentclass[a4paper,12pt]{article}
+
+% Language and math
+\usepackage[english]{babel}
+\usepackage{amsmath, amssymb}
+
+% Graphics and colors
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+% Page layout
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+% Custom colors
+\definecolor{mainblue}{RGB}{30,90,160}
+\definecolor{lightblue}{RGB}{220,235,250}
+\definecolor{lightgray}{RGB}{245,245,245}
+
+% Form-style box
+\tcbset{
+  colback=lightblue,
+  colframe=mainblue,
+  boxrule=0.8pt,
+  arc=4pt,
+  left=6pt,
+  right=6pt,
+  top=6pt,
+  bottom=6pt
+}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{\textcolor{mainblue}{Formulas – Lines in the Cartesian Plane}}}
+\end{center}
+
+\vspace{0.5cm}
+
+%------------------------------------------------
+
+\section*{\textcolor{mainblue}{1. Types of Lines}}
+
+\begin{tcolorbox}
+\textbf{Lines parallel to the $y$-axis}
+\[
+x = k \qquad k \in \mathbb{R}
+\]
+
+\textbf{Lines parallel to the $x$-axis}
+\[
+y = k \qquad k \in \mathbb{R}
+\]
+\end{tcolorbox}
+
+%------------------------------------------------
+
+\section*{\textcolor{mainblue}{2. Line Equations}}
+
+\begin{tcolorbox}
+\textbf{Implicit form}
+\[
+ax + by + c = 0 \qquad a,b,c \in \mathbb{R}
+\]
+
+\textbf{Explicit form}
+\[
+y = mx + q
+\]
+
+\textit{Where:}  
+$m$ = slope  
+$q$ = $y$-intercept
+\end{tcolorbox}
+
+%------------------------------------------------
+
+\section*{\textcolor{mainblue}{3. Distances and Notable Points}}
+
+\begin{tcolorbox}
+\textbf{Distance between two points}
+\[
+d = \sqrt{(x_a - x_b)^2 + (y_a - y_b)^2}
+\]
+
+\textbf{Midpoint}
+\[
+\begin{cases}
+x_M = \dfrac{x_a + x_b}{2} \\
+y_M = \dfrac{y_a + y_b}{2}
+\end{cases}
+\]
+
+\textbf{Centroid of a triangle}
+\[
+\begin{cases}
+x_G = \dfrac{x_a + x_b + x_c}{3} \\
+y_G = \dfrac{y_a + y_b + y_c}{3}
+\end{cases}
+\]
+\end{tcolorbox}
+
+%------------------------------------------------
+
+\section*{\textcolor{mainblue}{4. Line through Points}}
+
+\begin{tcolorbox}
+\textbf{Line through two points}
+\[
+\frac{y - y_a}{y_b - y_a} = \frac{x - x_a}{x_b - x_a}
+\]
+
+\textbf{Line through a point and slope $m$}
+\[
+y - y_a = m(x - x_a)
+\]
+
+\end{tcolorbox}
+
+%------------------------------------------------
+
+\section*{\textcolor{mainblue}{5. Intersections and Distances}}
+
+\begin{tcolorbox}
+\textbf{Intersection of two lines}
+\[
+\begin{cases}
+r_1: a_1x + b_1y + c_1 = 0 \\
+r_2: a_2x + b_2y + c_2 = 0
+\end{cases}
+\]
+
+\textbf{Point--line distance}
+\[
+d = \frac{|ax_p + by_p + c|}{\sqrt{a^2 + b^2}}
+\]
+\end{tcolorbox}
+
+%------------------------------------------------
+
+\section*{\textcolor{mainblue}{6. Relationships Between Lines}}
+
+\begin{tcolorbox}
+\textbf{Parallel lines}
+\[
+m_1 = m_2
+\]
+
+\textbf{Perpendicular lines}
+\[
+m_1 = -\frac{1}{m_2}
+\]
+
+\textbf{Otherwise:} intersecting lines
+\end{tcolorbox}
+
+%------------------------------------------------
+
+\section*{\textcolor{mainblue}{7. Slope (m)}}
+
+\begin{tcolorbox}
+\textbf{From implicit form}
+\[
+m = -\frac{a}{b}
+\]
+
+\textbf{From two points}
+\[
+m = \frac{y_b - y_a}{x_b - x_a}
+\]
+\end{tcolorbox}
+
+\end{document}
