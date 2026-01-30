@@ -1,9 +1,14 @@
+
+[![Overleaf](https://img.shields.io/badge/LaTeX-Overleaf-blue)](https://www.overleaf.com)
+![TeX](https://img.shields.io/badge/Language-TeX-blue?style=flat&logo=latex&logoColor=white)
+![Latest commit](https://img.shields.io/github/last-commit/Tr0picalWomb4t/Cartesian-Lines-Formulas?style=flat)
+![Repo size](https://img.shields.io/github/repo-size/Tr0picalWomb4t/Cartesian-Lines-Formulas?style=flat)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+
 # 📐 Cartesian Lines Formulas
 
 Formulas for lines in the Cartesian plane — a **LaTeX** project collecting mathematical formulas and representations for lines in the Cartesian plane.  
 The project was created and maintained using **Overleaf**, making it easy to edit, compile, and collaborate online.
-
-[![Overleaf](https://img.shields.io/badge/LaTeX-Overleaf-blue)](https://www.overleaf.com)
 
 This repository contains a LaTeX document with the main equations, formulas, and properties of lines in the Cartesian plane, useful as a reference or educational material.
 
